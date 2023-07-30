@@ -5,6 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				oswald: ["Oswald", "sans-serif"],
+				rem: ["REM", "Oswald", "sans-serif"],
 			},
 		},
 	},

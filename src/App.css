@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Oswald, REM, "sans-serif";
+}
+
+p,
+span {
+	font-family: REM, "sans-serif";
+}
+
+header {
+	background-image: url("../assets/images/Banner.jpg");
+	height: 40vh;
+}
+
+header > div {
+	width: 64rem;
+}
+
+header > div > h1 {
+	max-width: 36rem;
+}
+
+@media all and (max-width: 600px) {
+	header {
+		height: 60vh;
+	}
+	header > div {
+		padding: 0 1.5rem;
+	}
+	header > div > h1 {
+		font-size: 3rem !important;
+		max-width: 16rem;
+	}
+
+	/* Checkout */
+	.checkout_modal > div {
+		width: 90vw;
+	}
+}
+
+/* Checkout */
+.checkout_modal > div {
+	width: 50rem;
+	height: 80vh;
+}
